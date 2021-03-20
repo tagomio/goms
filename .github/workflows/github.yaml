@@ -3,7 +3,7 @@ name: GitHub Workflows
 on:
   push:
     branches:
-      - feature/mongodb # TODO change this to main
+      - main
 
 jobs:
   update-database:
