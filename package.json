@@ -1,0 +1,25 @@
+{
+  "name": "goms",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tagomio/goms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tagomio/goms/issues"
+  },
+  "homepage": "https://github.com/tagomio/goms#readme",
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "@octokit/core": "^3.3.1"
+  }
+}

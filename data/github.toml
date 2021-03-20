@@ -1,0 +1,8 @@
+[config]
+prefix = "https://github.com/"
+
+[links]
+"neovim/neovim" = [ "editor", "terminal" ]
+"microsoft/vscode" = [ "editor", "gui" ]
+"atom/atom" = [ "editor", "gui" ]
+"neoclide/coc.nvim" = [ "neovim", "plugin", "language-server" ]
