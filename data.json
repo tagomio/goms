@@ -1,0 +1,1 @@
+{"https://github.com/neovim/neovim":["editor","terminal"],"https://github.com/microsoft/vscode":["editor","gui"],"https://github.com/atom/atom":["editor","gui"],"https://github.com/neoclide/coc.nvim":["neovim","plugin","language-server"]}
