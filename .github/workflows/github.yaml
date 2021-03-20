@@ -1,0 +1,22 @@
+name: GitHub Workflows
+
+on:
+  push:
+    branches:
+      - feature/mongodb # TODO change this to main
+
+jobs:
+  update-database:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+
+      - name: Install
+        run: npm install
+
+      - name: Update Database
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MONGODB_URL: ${{ secrets.MONGODB_URL }}
+        run: node update.js
