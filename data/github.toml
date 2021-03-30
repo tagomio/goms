@@ -6,3 +6,4 @@ prefix = "https://github.com/"
 "microsoft/vscode" = [ "editor", "gui" ]
 "atom/atom" = [ "editor", "gui" ]
 "neoclide/coc.nvim" = [ "neovim", "plugin", "language-server" ]
+"octokit/request.js" = [ "pretty", "awesome" ]
